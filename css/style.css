@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+}
+.bg-pic {
+    background: url(../1.jpg);
+    height: 100vh;
+    position: absolute;
+    width:100vw;
+    filter: blur(0px);
+    background-position: center;
+    background-size: cover;
+}
+.loder {
+    position: relative;
+    color: white;
+    font-size: 36px;
+}
